@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820CB91D19CCCC7E0044A8B7 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820CB91C19CCCC7E0044A8B7 /* GraphViewController.m */; };
+		823950ED19CA2B5B00817CAF /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823950EC19CA2B5B00817CAF /* MainStoryBoard.storyboard */; };
+		823950F019CA2C5400817CAF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823950EF19CA2C5400817CAF /* RootViewController.m */; };
+		823950F319CA2C9800817CAF /* AddSpentIssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823950F219CA2C9800817CAF /* AddSpentIssueViewController.m */; };
+		823950F619CA2CB800817CAF /* ByYearTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823950F519CA2CB800817CAF /* ByYearTableViewController.m */; };
+		823950F919CA2CCA00817CAF /* ByMonthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823950F819CA2CCA00817CAF /* ByMonthTableViewController.m */; };
+		823950FC19CA2CEB00817CAF /* ByDayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823950FB19CA2CEB00817CAF /* ByDayTableViewController.m */; };
+		823950FF19CA2CFC00817CAF /* ByHourTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823950FE19CA2CFC00817CAF /* ByHourTableViewController.m */; };
+		8239510219CA2D8A00817CAF /* SpentIssueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8239510119CA2D8A00817CAF /* SpentIssueTableViewController.m */; };
+		8239510519CA3C4400817CAF /* NextAddSpentIssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8239510419CA3C4400817CAF /* NextAddSpentIssueViewController.m */; };
 		823B730719C96F4E00BFE8F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B730619C96F4E00BFE8F4 /* Foundation.framework */; };
 		823B730919C96F4E00BFE8F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B730819C96F4E00BFE8F4 /* CoreGraphics.framework */; };
 		823B730B19C96F4E00BFE8F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B730A19C96F4E00BFE8F4 /* UIKit.framework */; };
@@ -15,13 +25,39 @@
 		823B731519C96F4E00BFE8F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B731419C96F4E00BFE8F4 /* main.m */; };
 		823B731919C96F4E00BFE8F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B731819C96F4E00BFE8F4 /* AppDelegate.m */; };
 		823B731C19C96F4E00BFE8F4 /* How_Much_I_Spent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 823B731A19C96F4E00BFE8F4 /* How_Much_I_Spent.xcdatamodeld */; };
-		823B731E19C96F4E00BFE8F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823B731D19C96F4E00BFE8F4 /* Images.xcassets */; };
 		823B732519C96F4E00BFE8F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B732419C96F4E00BFE8F4 /* XCTest.framework */; };
 		823B732619C96F4E00BFE8F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B730619C96F4E00BFE8F4 /* Foundation.framework */; };
 		823B732719C96F4E00BFE8F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B730A19C96F4E00BFE8F4 /* UIKit.framework */; };
 		823B732819C96F4E00BFE8F4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823B730C19C96F4E00BFE8F4 /* CoreData.framework */; };
 		823B733019C96F4E00BFE8F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 823B732E19C96F4E00BFE8F4 /* InfoPlist.strings */; };
 		823B733219C96F4E00BFE8F4 /* How_Much_I_SpentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B733119C96F4E00BFE8F4 /* How_Much_I_SpentTests.m */; };
+		823B733E19C972FA00BFE8F4 /* SpentDataSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B733D19C972FA00BFE8F4 /* SpentDataSets.m */; };
+		823B734719C9770900BFE8F4 /* SpentIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B734619C9770900BFE8F4 /* SpentIssue.m */; };
+		823B734A19C9771500BFE8F4 /* SumbyDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B734919C9771500BFE8F4 /* SumbyDay.m */; };
+		823B734D19C9772200BFE8F4 /* SumbyHour.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B734C19C9772200BFE8F4 /* SumbyHour.m */; };
+		823B735019C9772C00BFE8F4 /* SumbyMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B734F19C9772C00BFE8F4 /* SumbyMonth.m */; };
+		823B735319C9773F00BFE8F4 /* SumbyYear.m in Sources */ = {isa = PBXBuildFile; fileRef = 823B735219C9773F00BFE8F4 /* SumbyYear.m */; };
+		826BC54019CC22760016B9A8 /* GraphCustomizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826BC53F19CC22760016B9A8 /* GraphCustomizeViewController.m */; };
+		826BC54419CC2AA20016B9A8 /* TrendGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = 826BC54319CC2AA20016B9A8 /* TrendGraphic.m */; };
+		8294548C19CFB1EC0024D019 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8294548B19CFB1EC0024D019 /* Images.xcassets */; };
+		829454C019CFC0560024D019 /* icon_How_Much_I_Spent.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454AF19CFC0560024D019 /* icon_How_Much_I_Spent.png */; };
+		829454C119CFC0560024D019 /* icon_How_Much_I_Spent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B019CFC0560024D019 /* icon_How_Much_I_Spent@2x.png */; };
+		829454C219CFC0560024D019 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B119CFC0560024D019 /* Icon-72.png */; };
+		829454C319CFC0560024D019 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B219CFC0560024D019 /* Icon-72@2x.png */; };
+		829454C419CFC0560024D019 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B319CFC0560024D019 /* Icon-76.png */; };
+		829454C519CFC0560024D019 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B419CFC0560024D019 /* Icon-76@2x.png */; };
+		829454C619CFC0560024D019 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B519CFC0560024D019 /* Icon-120.png */; };
+		829454C719CFC0560024D019 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B619CFC0560024D019 /* Icon-iPad-Spotlight-iOS7@2x.png */; };
+		829454C819CFC0560024D019 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B719CFC0560024D019 /* Icon-Small-50.png */; };
+		829454C919CFC0560024D019 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B819CFC0560024D019 /* Icon-Small.png */; };
+		829454CA19CFC0560024D019 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454B919CFC0560024D019 /* Icon-Small@2x.png */; };
+		829454CB19CFC0560024D019 /* Icon-Spotlight-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454BA19CFC0560024D019 /* Icon-Spotlight-iOS7.png */; };
+		829454CC19CFC0560024D019 /* Icon-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454BB19CFC0560024D019 /* Icon-Spotlight-iOS7@2x.png */; };
+		829454CD19CFC0560024D019 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454BC19CFC0560024D019 /* Icon.png */; };
+		829454CE19CFC0560024D019 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454BD19CFC0560024D019 /* Icon@2x.png */; };
+		829454CF19CFC0560024D019 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 829454BE19CFC0560024D019 /* iTunesArtwork */; };
+		829454D319CFC6FB0024D019 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 829454D519CFC6FB0024D019 /* iTunesArtwork@2x */; };
+		829454D719CFC8760024D019 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829454D619CFC8760024D019 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820CB91B19CCCC7E0044A8B7 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		820CB91C19CCCC7E0044A8B7 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		823950EC19CA2B5B00817CAF /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		823950EE19CA2C5400817CAF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		823950EF19CA2C5400817CAF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		823950F119CA2C9800817CAF /* AddSpentIssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSpentIssueViewController.h; sourceTree = "<group>"; };
+		823950F219CA2C9800817CAF /* AddSpentIssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSpentIssueViewController.m; sourceTree = "<group>"; };
+		823950F419CA2CB800817CAF /* ByYearTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByYearTableViewController.h; sourceTree = "<group>"; };
+		823950F519CA2CB800817CAF /* ByYearTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByYearTableViewController.m; sourceTree = "<group>"; };
+		823950F719CA2CCA00817CAF /* ByMonthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByMonthTableViewController.h; sourceTree = "<group>"; };
+		823950F819CA2CCA00817CAF /* ByMonthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByMonthTableViewController.m; sourceTree = "<group>"; };
+		823950FA19CA2CEB00817CAF /* ByDayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByDayTableViewController.h; sourceTree = "<group>"; };
+		823950FB19CA2CEB00817CAF /* ByDayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByDayTableViewController.m; sourceTree = "<group>"; };
+		823950FD19CA2CFC00817CAF /* ByHourTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByHourTableViewController.h; sourceTree = "<group>"; };
+		823950FE19CA2CFC00817CAF /* ByHourTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByHourTableViewController.m; sourceTree = "<group>"; };
+		8239510019CA2D8A00817CAF /* SpentIssueTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpentIssueTableViewController.h; sourceTree = "<group>"; };
+		8239510119CA2D8A00817CAF /* SpentIssueTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpentIssueTableViewController.m; sourceTree = "<group>"; };
+		8239510319CA3C4400817CAF /* NextAddSpentIssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextAddSpentIssueViewController.h; sourceTree = "<group>"; };
+		8239510419CA3C4400817CAF /* NextAddSpentIssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextAddSpentIssueViewController.m; sourceTree = "<group>"; };
 		823B730319C96F4E00BFE8F4 /* How_Much_I_Spent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = How_Much_I_Spent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		823B730619C96F4E00BFE8F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		823B730819C96F4E00BFE8F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +102,46 @@
 		823B731719C96F4E00BFE8F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		823B731819C96F4E00BFE8F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		823B731B19C96F4E00BFE8F4 /* How_Much_I_Spent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = How_Much_I_Spent.xcdatamodel; sourceTree = "<group>"; };
-		823B731D19C96F4E00BFE8F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		823B732319C96F4E00BFE8F4 /* How_Much_I_SpentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = How_Much_I_SpentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		823B732419C96F4E00BFE8F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		823B732D19C96F4E00BFE8F4 /* How_Much_I_SpentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "How_Much_I_SpentTests-Info.plist"; sourceTree = "<group>"; };
 		823B732F19C96F4E00BFE8F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		823B733119C96F4E00BFE8F4 /* How_Much_I_SpentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = How_Much_I_SpentTests.m; sourceTree = "<group>"; };
+		823B733C19C972FA00BFE8F4 /* SpentDataSets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpentDataSets.h; sourceTree = "<group>"; };
+		823B733D19C972FA00BFE8F4 /* SpentDataSets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpentDataSets.m; sourceTree = "<group>"; };
+		823B734519C9770900BFE8F4 /* SpentIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpentIssue.h; sourceTree = "<group>"; };
+		823B734619C9770900BFE8F4 /* SpentIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpentIssue.m; sourceTree = "<group>"; };
+		823B734819C9771500BFE8F4 /* SumbyDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumbyDay.h; sourceTree = "<group>"; };
+		823B734919C9771500BFE8F4 /* SumbyDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumbyDay.m; sourceTree = "<group>"; };
+		823B734B19C9772200BFE8F4 /* SumbyHour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumbyHour.h; sourceTree = "<group>"; };
+		823B734C19C9772200BFE8F4 /* SumbyHour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumbyHour.m; sourceTree = "<group>"; };
+		823B734E19C9772C00BFE8F4 /* SumbyMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumbyMonth.h; sourceTree = "<group>"; };
+		823B734F19C9772C00BFE8F4 /* SumbyMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumbyMonth.m; sourceTree = "<group>"; };
+		823B735119C9773F00BFE8F4 /* SumbyYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumbyYear.h; sourceTree = "<group>"; };
+		823B735219C9773F00BFE8F4 /* SumbyYear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumbyYear.m; sourceTree = "<group>"; };
+		826BC53E19CC22760016B9A8 /* GraphCustomizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphCustomizeViewController.h; sourceTree = "<group>"; };
+		826BC53F19CC22760016B9A8 /* GraphCustomizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphCustomizeViewController.m; sourceTree = "<group>"; };
+		826BC54219CC2AA20016B9A8 /* TrendGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendGraphic.h; sourceTree = "<group>"; };
+		826BC54319CC2AA20016B9A8 /* TrendGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendGraphic.m; sourceTree = "<group>"; };
+		8294548B19CFB1EC0024D019 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = How_Much_I_Spent/Images.xcassets; sourceTree = "<group>"; };
+		829454AF19CFC0560024D019 /* icon_How_Much_I_Spent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_How_Much_I_Spent.png; sourceTree = "<group>"; };
+		829454B019CFC0560024D019 /* icon_How_Much_I_Spent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_How_Much_I_Spent@2x.png"; sourceTree = "<group>"; };
+		829454B119CFC0560024D019 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		829454B219CFC0560024D019 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		829454B319CFC0560024D019 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		829454B419CFC0560024D019 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		829454B519CFC0560024D019 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		829454B619CFC0560024D019 /* Icon-iPad-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		829454B719CFC0560024D019 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		829454B819CFC0560024D019 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		829454B919CFC0560024D019 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		829454BA19CFC0560024D019 /* Icon-Spotlight-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7.png"; sourceTree = "<group>"; };
+		829454BB19CFC0560024D019 /* Icon-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
+		829454BC19CFC0560024D019 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		829454BD19CFC0560024D019 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		829454BE19CFC0560024D019 /* iTunesArtwork */ = {isa = PBXFileReference; explicitFileType = image.icns; path = iTunesArtwork; sourceTree = "<group>"; };
+		829454D419CFC6FB0024D019 /* en */ = {isa = PBXFileReference; explicitFileType = image.icns; name = en; path = "en.lproj/iTunesArtwork@2x"; sourceTree = "<group>"; };
+		829454D619CFC8760024D019 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +170,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823950EB19CA2B1E00817CAF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				823950EC19CA2B5B00817CAF /* MainStoryBoard.storyboard */,
+				823950EE19CA2C5400817CAF /* RootViewController.h */,
+				823950EF19CA2C5400817CAF /* RootViewController.m */,
+				823950F119CA2C9800817CAF /* AddSpentIssueViewController.h */,
+				823950F219CA2C9800817CAF /* AddSpentIssueViewController.m */,
+				823950F419CA2CB800817CAF /* ByYearTableViewController.h */,
+				823950F519CA2CB800817CAF /* ByYearTableViewController.m */,
+				823950F719CA2CCA00817CAF /* ByMonthTableViewController.h */,
+				823950F819CA2CCA00817CAF /* ByMonthTableViewController.m */,
+				823950FA19CA2CEB00817CAF /* ByDayTableViewController.h */,
+				823950FB19CA2CEB00817CAF /* ByDayTableViewController.m */,
+				823950FD19CA2CFC00817CAF /* ByHourTableViewController.h */,
+				823950FE19CA2CFC00817CAF /* ByHourTableViewController.m */,
+				8239510019CA2D8A00817CAF /* SpentIssueTableViewController.h */,
+				8239510119CA2D8A00817CAF /* SpentIssueTableViewController.m */,
+				8239510319CA3C4400817CAF /* NextAddSpentIssueViewController.h */,
+				8239510419CA3C4400817CAF /* NextAddSpentIssueViewController.m */,
+				826BC53E19CC22760016B9A8 /* GraphCustomizeViewController.h */,
+				826BC53F19CC22760016B9A8 /* GraphCustomizeViewController.m */,
+				820CB91B19CCCC7E0044A8B7 /* GraphViewController.h */,
+				820CB91C19CCCC7E0044A8B7 /* GraphViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		823B72FA19C96F4E00BFE8F4 = {
 			isa = PBXGroup;
 			children = (
+				829454D619CFC8760024D019 /* Default-568h@2x.png */,
+				829454AF19CFC0560024D019 /* icon_How_Much_I_Spent.png */,
+				829454B019CFC0560024D019 /* icon_How_Much_I_Spent@2x.png */,
+				829454B119CFC0560024D019 /* Icon-72.png */,
+				829454B219CFC0560024D019 /* Icon-72@2x.png */,
+				829454B319CFC0560024D019 /* Icon-76.png */,
+				829454B419CFC0560024D019 /* Icon-76@2x.png */,
+				829454B519CFC0560024D019 /* Icon-120.png */,
+				829454B619CFC0560024D019 /* Icon-iPad-Spotlight-iOS7@2x.png */,
+				829454B719CFC0560024D019 /* Icon-Small-50.png */,
+				829454B819CFC0560024D019 /* Icon-Small.png */,
+				829454B919CFC0560024D019 /* Icon-Small@2x.png */,
+				829454BA19CFC0560024D019 /* Icon-Spotlight-iOS7.png */,
+				829454BB19CFC0560024D019 /* Icon-Spotlight-iOS7@2x.png */,
+				829454BC19CFC0560024D019 /* Icon.png */,
+				829454BD19CFC0560024D019 /* Icon@2x.png */,
+				829454BE19CFC0560024D019 /* iTunesArtwork */,
+				829454D519CFC6FB0024D019 /* iTunesArtwork@2x */,
+				8294548B19CFB1EC0024D019 /* Images.xcassets */,
 				823B730E19C96F4E00BFE8F4 /* How_Much_I_Spent */,
 				823B732B19C96F4E00BFE8F4 /* How_Much_I_SpentTests */,
 				823B730519C96F4E00BFE8F4 /* Frameworks */,
@@ -115,9 +251,11 @@
 		823B730E19C96F4E00BFE8F4 /* How_Much_I_Spent */ = {
 			isa = PBXGroup;
 			children = (
+				826BC54119CC288D0016B9A8 /* DrawGraph */,
+				823950EB19CA2B1E00817CAF /* ViewControllers */,
+				823B733B19C9725100BFE8F4 /* Model */,
 				823B731719C96F4E00BFE8F4 /* AppDelegate.h */,
 				823B731819C96F4E00BFE8F4 /* AppDelegate.m */,
-				823B731D19C96F4E00BFE8F4 /* Images.xcassets */,
 				823B731A19C96F4E00BFE8F4 /* How_Much_I_Spent.xcdatamodeld */,
 				823B730F19C96F4E00BFE8F4 /* Supporting Files */,
 			);
@@ -151,6 +289,34 @@
 				823B732E19C96F4E00BFE8F4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		823B733B19C9725100BFE8F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				823B735119C9773F00BFE8F4 /* SumbyYear.h */,
+				823B735219C9773F00BFE8F4 /* SumbyYear.m */,
+				823B734E19C9772C00BFE8F4 /* SumbyMonth.h */,
+				823B734F19C9772C00BFE8F4 /* SumbyMonth.m */,
+				823B734B19C9772200BFE8F4 /* SumbyHour.h */,
+				823B734C19C9772200BFE8F4 /* SumbyHour.m */,
+				823B734819C9771500BFE8F4 /* SumbyDay.h */,
+				823B734919C9771500BFE8F4 /* SumbyDay.m */,
+				823B734519C9770900BFE8F4 /* SpentIssue.h */,
+				823B734619C9770900BFE8F4 /* SpentIssue.m */,
+				823B733C19C972FA00BFE8F4 /* SpentDataSets.h */,
+				823B733D19C972FA00BFE8F4 /* SpentDataSets.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		826BC54119CC288D0016B9A8 /* DrawGraph */ = {
+			isa = PBXGroup;
+			children = (
+				826BC54219CC2AA20016B9A8 /* TrendGraphic.h */,
+				826BC54319CC2AA20016B9A8 /* TrendGraphic.m */,
+			);
+			name = DrawGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +366,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					823B730219C96F4E00BFE8F4 = {
+						DevelopmentTeam = W3H7RYK87X;
+					};
 					823B732219C96F4E00BFE8F4 = {
 						TestTargetID = 823B730219C96F4E00BFE8F4;
 					};
@@ -228,8 +397,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829454D319CFC6FB0024D019 /* iTunesArtwork@2x in Resources */,
+				829454CD19CFC0560024D019 /* Icon.png in Resources */,
+				829454CE19CFC0560024D019 /* Icon@2x.png in Resources */,
+				829454C319CFC0560024D019 /* Icon-72@2x.png in Resources */,
+				829454C719CFC0560024D019 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				829454D719CFC8760024D019 /* Default-568h@2x.png in Resources */,
+				829454C519CFC0560024D019 /* Icon-76@2x.png in Resources */,
+				829454CB19CFC0560024D019 /* Icon-Spotlight-iOS7.png in Resources */,
+				829454C919CFC0560024D019 /* Icon-Small.png in Resources */,
+				829454C419CFC0560024D019 /* Icon-76.png in Resources */,
+				8294548C19CFB1EC0024D019 /* Images.xcassets in Resources */,
+				829454C119CFC0560024D019 /* icon_How_Much_I_Spent@2x.png in Resources */,
+				829454CF19CFC0560024D019 /* iTunesArtwork in Resources */,
+				823950ED19CA2B5B00817CAF /* MainStoryBoard.storyboard in Resources */,
 				823B731319C96F4E00BFE8F4 /* InfoPlist.strings in Resources */,
-				823B731E19C96F4E00BFE8F4 /* Images.xcassets in Resources */,
+				829454CC19CFC0560024D019 /* Icon-Spotlight-iOS7@2x.png in Resources */,
+				829454C019CFC0560024D019 /* icon_How_Much_I_Spent.png in Resources */,
+				829454C819CFC0560024D019 /* Icon-Small-50.png in Resources */,
+				829454C619CFC0560024D019 /* Icon-120.png in Resources */,
+				829454C219CFC0560024D019 /* Icon-72.png in Resources */,
+				829454CA19CFC0560024D019 /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +437,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				823B731919C96F4E00BFE8F4 /* AppDelegate.m in Sources */,
+				823950F619CA2CB800817CAF /* ByYearTableViewController.m in Sources */,
+				823B734D19C9772200BFE8F4 /* SumbyHour.m in Sources */,
+				826BC54419CC2AA20016B9A8 /* TrendGraphic.m in Sources */,
+				823B733E19C972FA00BFE8F4 /* SpentDataSets.m in Sources */,
+				8239510219CA2D8A00817CAF /* SpentIssueTableViewController.m in Sources */,
+				823B735319C9773F00BFE8F4 /* SumbyYear.m in Sources */,
+				823950FC19CA2CEB00817CAF /* ByDayTableViewController.m in Sources */,
+				823950F019CA2C5400817CAF /* RootViewController.m in Sources */,
 				823B731C19C96F4E00BFE8F4 /* How_Much_I_Spent.xcdatamodeld in Sources */,
+				823950F919CA2CCA00817CAF /* ByMonthTableViewController.m in Sources */,
+				8239510519CA3C4400817CAF /* NextAddSpentIssueViewController.m in Sources */,
+				823B734A19C9771500BFE8F4 /* SumbyDay.m in Sources */,
+				820CB91D19CCCC7E0044A8B7 /* GraphViewController.m in Sources */,
+				823950FF19CA2CFC00817CAF /* ByHourTableViewController.m in Sources */,
+				826BC54019CC22760016B9A8 /* GraphCustomizeViewController.m in Sources */,
+				823B735019C9772C00BFE8F4 /* SumbyMonth.m in Sources */,
 				823B731519C96F4E00BFE8F4 /* main.m in Sources */,
+				823B734719C9770900BFE8F4 /* SpentIssue.m in Sources */,
+				823950F319CA2C9800817CAF /* AddSpentIssueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +494,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		829454D519CFC6FB0024D019 /* iTunesArtwork@2x */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829454D419CFC6FB0024D019 /* en */,
+			);
+			name = "iTunesArtwork@2x";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -308,7 +521,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -327,6 +541,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -346,7 +561,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -357,6 +573,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -365,12 +582,15 @@
 		823B733619C96F4E00BFE8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "How_Much_I_Spent/How_Much_I_Spent-Prefix.pch";
 				INFOPLIST_FILE = "How_Much_I_Spent/How_Much_I_Spent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "126c4fd3-41fb-4069-9ef8-f07d49781e2a";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,12 +598,15 @@
 		823B733719C96F4E00BFE8F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kangxing Fu (W3H7RYK87X)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "How_Much_I_Spent/How_Much_I_Spent-Prefix.pch";
 				INFOPLIST_FILE = "How_Much_I_Spent/How_Much_I_Spent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "126c4fd3-41fb-4069-9ef8-f07d49781e2a";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +670,7 @@
 				823B733719C96F4E00BFE8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		823B733819C96F4E00BFE8F4 /* Build configuration list for PBXNativeTarget "How_Much_I_SpentTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +679,7 @@
 				823B733A19C96F4E00BFE8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
